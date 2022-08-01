@@ -25,7 +25,7 @@ class LimitatiBot_app(Client):
         sleep_threshold=180
     )
 
-    ADMIN = [1881915129] # You can add multiple ids: Example [1881915129, 1881915129, 1881915129]
+    ADMIN = [5350662625] # You can add multiple ids: Example [1881915129, 1881915129, 1881915129]
     ALIAS = config['Variables']['ALIAS']
     CMDB = ["start", "bc", "broadcast", "help"]
     prefixes = config['Variables']['ALIAS']
